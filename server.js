@@ -3,6 +3,7 @@ import mongoose from "mongoose"
 import cors from "cors"
 import dotenv from "dotenv"
 import ingridientsRoutes from "./routes/ingridentsRoute.js"
+import user from "./routes/userRoutes.js"
 
 const app =express();
 
